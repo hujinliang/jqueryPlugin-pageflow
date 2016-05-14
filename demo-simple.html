@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>demo</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    #container,.section{
+        height:100%;
+    }
+    html,body{
+        height:100%;
+        overflow: hidden;
+    }
+    #section1,#section2,#section3,#section4{
+        background-color:#000000;
+        -webkit-background-size:cover;
+        background-size:cover;
+        background-position: 50% 50%;
+        text-align: center;
+        color: white;
+    }
+    #section1{
+        background-image: url(images/Chrysanthemum.jpg);
+    }
+    #section2{
+        background-image: url(images/Desert.jpg);
+    }
+    #section3{
+        background-image: url(images/Hydrangeas.jpg);
+    }
+    #section4{
+        background-image: url(images/Jellyfish.jpg);
+    }
+
+</style>
+<body>
+<div id="container" style="position:relative">
+    <div class="section" id="section1">
+        <h3>this is the page</h3>
+    </div>
+    <div class="section" id ="section2">
+        <h3>this is the page</h3>
+    </div>
+    <div class="section" id="section3">
+        <h3>this is the page</h3>
+    </div>
+    <div class="section" id="section4">
+        <h3>this is the page</h3>
+    </div>
+</div>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/pageflow-simple.js"></script>
+<script>
+    $('#container').pageflow({
+        direction:'horizontal'
+    })
+</script>
+</body>
+</html>

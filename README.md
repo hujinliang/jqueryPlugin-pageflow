@@ -11,6 +11,6 @@
 ## Demo
 
 
-* [working with wookmark](http://wayou.github.io/SlipHover/wookmark.html)
-* [working with freewall](http://wayou.github.io/SlipHover/freewall.html)
+* [默认分页](http://htmlpreview.github.io/?https://github.com/HUJINLIANG/jqueryPlugin-pageflow/blob/master/demo-simple.html)
+* [自定义分页](http://htmlpreview.github.io/?https://github.com/HUJINLIANG/jqueryPlugin-pageflow/blob/master/demo-custom.html)
 
